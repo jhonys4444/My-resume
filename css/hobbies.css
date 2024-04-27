@@ -1,0 +1,259 @@
+body {
+  text-align: center;
+}
+
+.button {
+  text-align: left;
+}
+
+.button-contact {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    background: #11406d;
+    border-radius: 8px;
+    color: #ffffff;
+    padding: 15px 15px 15px 15px;
+    text-decoration: none;
+    width: 70%;
+  }
+
+.button-back {
+    padding: 20px;
+}
+
+small > p {
+  font-family: "Raleway", sans-serif;
+  font-size: small;
+  font-style: normal;
+  color: #11406d;
+}
+
+
+@media (max-width: 699px) {
+
+  .title {
+    height: 25vh;
+    display: flex;
+    font-family: "Dancing Script", cursive;
+    font-size: 2em;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hobbies-list {
+    background-color: #5d89b323;
+    border-radius: 50px 500px;
+    display: grid;
+    grid-template-columns: 0.2fr 1.5fr 0.2fr;
+    height: 70vh;
+    margin: 0 20px 0 20px;
+    color: #11406d;
+    font-family: "Raleway", sans-serif;
+    font-style: italic;
+    font-size: medium;
+    text-align: center;
+  }
+
+  .list {
+    display: grid;
+    grid-template-columns: auto;
+    /* grid-template-rows: repeat(10, 1fr); */
+    gap: 10px;
+    grid-area: 1 /2;
+    background-color: #5d89b323;
+    padding: 80px 80px;
+    border-radius: 30px;
+    font-family: "Raleway", sans-serif;
+    font-style: italic;
+    font-size: large;
+    text-align: left;
+  }
+
+p {
+    color: #11406d;
+    font-family: "Raleway", sans-serif;
+    font-style: italic;
+    font-size: large;
+}
+  
+  footer {
+    padding: 150px 0 0 0;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 1199px) {
+
+  .title {
+    height: 25vh;
+    display: flex;
+    font-family: "Dancing Script", cursive;
+    font-size: 2em;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hobbies-list {
+    background-color: #5d89b323;
+    border-radius: 50px 500px;
+    display: grid;
+    grid-template-columns: 0.2fr 1.5fr 0.2fr;
+    height: 70vh;
+    margin: 0 20px 0 20px;
+    color: #11406d;
+    font-family: "Raleway", sans-serif;
+    font-style: italic;
+    font-size: medium;
+    text-align: center;
+  }
+
+  .list {
+    display: grid;
+    grid-template-columns: auto;
+    /* grid-template-rows: repeat(10, 1fr); */
+    gap: 10px;
+    grid-area: 1 /2;
+    background-color: #5d89b323;
+    padding: 80px 80px;
+    border-radius: 30px;
+    font-family: "Raleway", sans-serif;
+    font-style: italic;
+    font-size: large;
+    text-align: left;
+  }
+
+  .item-2 {
+    margin-left: 20px;
+  }
+
+  .item-3 {
+    margin-left: 40px;
+  }
+
+  .item-4 {
+    margin-left: 60px; 
+  }
+
+  .item-5 {
+    margin-left: 80px;
+  }
+
+  .item-6 {
+    margin-left: 100px;
+  }
+
+  .item-7 {
+    margin-left: 120px;
+  }
+
+  .item-8 {
+    margin-left: 140px;
+  }
+
+  .item-9 {
+    margin-left: 160px;
+  }
+
+  .item-10 {
+    margin-left: 180px;
+  }
+
+  p {
+    color: #11406d;
+    font-family: "Raleway", sans-serif;
+    font-style: italic;
+    font-size: large;
+}
+  
+  footer {
+    padding: 150px 0 0 0;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .title {
+    height: 25vh;
+    display: flex;
+    font-family: "Dancing Script", cursive;
+    font-size: 2em;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hobbies-list {
+    background-color: #5d89b323;
+    border-radius: 50px 500px;
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr 0.5fr;
+    height: 70vh;
+    margin: 0 20px 0 20px;
+    color: #11406d;
+    font-family: "Raleway", sans-serif;
+    font-style: italic;
+    font-size: medium;
+    text-align: center;
+  }
+
+  .list {
+    display: grid;
+    grid-template-columns: auto;
+    /* grid-template-rows: repeat(10, 1fr); */
+    gap: 10px;
+    grid-area: 1 /2;
+    background-color: #5d89b323;
+    padding: 80px 80px;
+    border-radius: 30px;
+    font-family: "Raleway", sans-serif;
+    font-style: italic;
+    font-size: large;
+    text-align: left;
+  }
+
+  .item-2 {
+    margin-left: 30px;
+  }
+
+  .item-3 {
+    margin-left: 60px;
+  }
+
+  .item-4 {
+    margin-left: 90px; 
+  }
+
+  .item-5 {
+    margin-left: 120px;
+  }
+
+  .item-6 {
+    margin-left: 150px;
+  }
+
+  .item-7 {
+    margin-left: 180px;
+  }
+
+  .item-8 {
+    margin-left: 210px;
+  }
+
+  .item-9 {
+    margin-left: 240px;
+  }
+
+  .item-10 {
+    margin-left: 270px;
+  }
+
+  p {
+    color: #11406d;
+    font-family: "Raleway", sans-serif;
+    font-style: italic;
+    font-size: large;
+}
+  
+  footer {
+    padding: 150px 0 0 0;
+  }
+}
+

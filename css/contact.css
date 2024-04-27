@@ -1,0 +1,218 @@
+body {
+    /* background-color: rgb(220, 239, 245); */
+    text-align: center;
+}
+
+a {
+    color: #11406d;
+}
+
+h1 {
+    text-align: center;
+    float: center;
+    color: #11406d;
+}
+
+h2 {
+    color: #11406d;
+    font-family: "Dancing Script", cursive;
+    font-size: 2em;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    color: #11406d;
+    font-family: "Raleway", sans-serif;
+    font-style: italic;
+    font-size: large;
+}
+
+.back-link {
+    text-align: left;
+}
+
+.button-contact {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    background: #11406d;
+    border-radius: 8px;
+    color: #ffffff;
+    padding: 15px 0 15px 0;
+    text-decoration: none;
+    width: 70%;
+  }
+
+.button-back {
+    padding: 20px;
+}
+
+@media (max-width: 699px) {
+    .title {
+        height: 25vh;
+        display: flex;
+        font-family: "Dancing Script", cursive;
+        font-size: 1.8em;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .data-container {
+        background-color: #5d89b323;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+        gap: 20px;
+        height: 55vh;
+        padding: 10px 10px;
+        margin: 10px 10px;
+        border-radius: 20px 300px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .data-list {
+        display: flex;
+        flex-direction: column;
+        background-color: #5d89b33d;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        border-radius: 10%;
+    }
+
+    h2 {
+        color: #11406d;
+        font-family: "Dancing Script", cursive;
+        font-size: 1.5em;
+    }
+
+    p {
+        color: #11406d;
+        font-family: "Raleway", sans-serif;
+        font-style: italic;
+        font-size: small;
+    }
+
+    .button-contact {
+        font-family: "Raleway", sans-serif;
+        font-style: normal;
+        font-size: small;
+        background: #11406d;
+        border-radius: 8px;
+        color: #ffffff;
+        padding: 15px 0 15px 0;
+        text-decoration: none;
+        width: 70%;
+      }
+
+    .button-back {
+        padding: 10px;
+    }
+
+    .number {
+        grid-area: 1 / 2;
+    }
+
+    .email {
+        grid-area: 2 / 2;
+    }
+
+    .address {
+        grid-area: 3 / 2;
+    }
+
+    footer {
+        padding: 80px 0 0 0;
+    }
+}
+
+
+@media (min-width: 700px) and (max-width: 1199px) {
+
+    .title {
+        height: 25vh;
+        display: flex;
+        font-family: "Dancing Script", cursive;
+        font-size: 2em;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .data-container {
+        background-color: #5d89b323;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+        gap: 15px;
+        height: 40vh;
+        padding: 30px 10px;
+        margin: 30px 10px;
+        border-radius: 20px 300px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .data-list {
+        display: flex;
+        flex-direction: column;
+        background-color: #5d89b33d;
+        justify-content: center;
+        align-items: center;
+        height: 80%;
+        border-radius: 10%;
+    }
+
+    p {
+        color: #11406d;
+        font-family: "Raleway", sans-serif;
+        font-style: italic;
+        font-size: medium;
+    }
+
+    footer {
+        padding: 150px 0 0 0;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .title {
+        height: 25vh;
+        display: flex;
+        font-family: "Dancing Script", cursive;
+        font-size: 2em;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .data-container {
+        background-color: #5d89b323;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+        gap: 30px;
+        height: 40vh;
+        padding: 30px;
+        margin: 30px;
+        border-radius: 20px 300px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .data-list {
+        display: flex;
+        flex-direction: column;
+        background-color: #5d89b33d;
+        justify-content: center;
+        align-items: center;
+        height: 80%;
+        border-radius: 10%;
+    }
+
+    footer {
+        padding: 150px 0 0 0;
+    }
+
+
+}
